@@ -6,10 +6,9 @@ const app = express();
 
 //Handling GET request
 app.get('/', (req,res)=> {
-    res.send('A simple Node App is' + 'running on this server')
+    res.send('Hello World')
     res.end()
 })
-
 
 //port Number
 const PORT= process.env.PORT||5000;
